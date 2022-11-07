@@ -1,0 +1,29 @@
+  GNU nano 4.8                                           CONDA_INSTRUCTIONS.txt                                           Modified  
+make empty conda environment with packages 
+        conda create -n 'env_name' pip  python=3.6 scipy
+
+list all conda environments
+        conda env list
+
+activate conda environment
+        conda activate 'env_name'
+
+install packages
+        conda install pip
+
+check installed packages
+        conda list
+
+deactivate environment
+        conda deactivate 'env_name'
+
+delete conda environment
+        conda env remove -n 'env_name'
+
+export yml file
+        conda env export -f conda_export.yml
+
+create conda environment with .yml file
+        conda env create -f conda_export.yml
+
+
